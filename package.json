@@ -1,0 +1,19 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.9",
+    "ts-node": "^10.9.2"
+  }
+}
