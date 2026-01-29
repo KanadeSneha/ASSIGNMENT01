@@ -17,7 +17,8 @@
         ],
         "format": [
             "progress",
-            "html: cucumber-report.html"
+            "html: cucumber-report.html",
+            "allure-cucumberjs"
         ]
     }
 }
