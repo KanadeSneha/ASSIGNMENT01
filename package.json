@@ -5,7 +5,9 @@
   "main": "index.js",
     "type": "commonjs",
   "scripts": {
-    "test": "cucumber-js --config cucumber.json"
+    "test": "cucumber-js --config cucumber.json",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
   },
   "keywords": [],
   "author": "",
